@@ -279,7 +279,7 @@
                             }                            
                         ?>	
                             <tr>
-                                <td class="center">합 계</td>                                
+                                <td class="center">합계</td>
                                 <td class="center"></td>
                                 <td class="center"><?=number_format($cs_t_traffic)?></td>
                                 <td style="text-align: right"><?=number_format($cs_t_qty)?></td>
@@ -294,6 +294,40 @@
                                 <td style="text-align: right"><?=number_format($cs_t_price+$web_t_price)?></td>
                                 <td style="text-align: right"><?=$avr_rs?>%</td>
                                 <td style="text-align: right"><?=number_format($rs_sum)?></td>
+                            </tr>
+                            <tr>
+                                <td class="center">취소</td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td style="text-align: right"></td>
+                                <td class="center"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                            </tr>
+                            <tr>
+                                <td class="center">총합</td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td style="text-align: right"></td>
+                                <td class="center"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
+                                <td style="text-align: right"></td>
                             </tr>
                     </tbody>
                 </table>

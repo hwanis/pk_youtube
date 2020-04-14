@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1164f7d0-8bf5-46f6-ba0c-fb23bfe8d1de" name="구전녹용개발서버" url="http://1.234.63.202">
+        <fileTransfer host="1.234.63.202" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a602d9a3-ec60-46b8-9a5f-447b3fca786f" name="구전녹용실서버" url="http://110.10.189.201">
+        <fileTransfer host="110.10.189.201" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="202b650d-1a10-49ae-9dd6-8441e24cc2ae" name="미쓰윤" url="http://192.168.0.190">
+        <fileTransfer host="192.168.0.190" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
