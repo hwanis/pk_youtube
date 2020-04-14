@@ -2,7 +2,7 @@
     require_once '../inc/inc_sales_header.php';
   //  echo $basename = basename($_SERVER["PHP_SELF"]);
 
-  // test 20.04.14 git test 1234
+  // test 20.04.14 17:10 테스트
   
     $req_s_id = $_SESSION[s_id];
     $to_date = date('Y-m-d');
